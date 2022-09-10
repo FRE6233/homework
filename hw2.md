@@ -71,4 +71,4 @@ You will also need $E[e^{sZ} f(Z)] = E[e^{sZ}] E[f(Z + s)]$.
 __Exercise 7.__ _Show $F\le k$ if and only if $Z\le (\log k/f + s^2/2)/s$
 and $Fe^{s^2}\le k$ if and only if $Z + s \le (\log k/f + s^2/2)/s$_.
 
-__Exercise 8.__ _Implement functions in ..._
+__Exercise 8.__ _Follow the directions in this [video](https://urldefense.com/v3/__https://nyu.zoom.us/rec/share/sOWDzECOg9NTA7vWe1-HHUn4pfKVaQDLHqSV_kzp-ahGF6szMYZyg5ZV8Fz4ke2q.XUuDLn6WR-J5fbse__;!!BhJSzQqDqA!UwblKz5iwFI0FozKCe7Bf8FDQSaoSVKHCAYmQco5BUdpgCC0GarUovQ8KiqmzHuwcVcTSGaGuOiIvWIt$)_.
