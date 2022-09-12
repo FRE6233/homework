@@ -1,4 +1,4 @@
-// xll_template.h - common includes
+// xll_hw3.h - common includes
 #pragma once
 #define _USE_MATH_DEFINES // for M_PI
 #include <cmath>
