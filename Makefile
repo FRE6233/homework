@@ -14,4 +14,3 @@ all: $(HTML)
 .PHONY: clean
 clean:
 	rm -f $(HTML)
-	rm -f $(PDF)
