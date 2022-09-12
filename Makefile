@@ -1,9 +1,9 @@
 MD = $(wildcard [a-z]*.md)
 HTML = $(MD:.md=.html)
-HTML = $(MD:.md=.pdf)
+PDF = $(MD:.md=.pdf)
 FLAGS = -s --katex --metadata="title=$*"
 
-%.html: %.md $(CSS)
+%.html: %.md 
 	pandoc $(FLAGS) $< -o $@
 
 %.pdf: %.md 
@@ -13,5 +13,5 @@ all: $(HTML)
 
 .PHONY: clean
 clean:
-	rm $(HTML)
-	rm $(PDF)
+	rm -f $(HTML)
+	rm -f $(PDF)
