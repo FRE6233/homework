@@ -1,7 +1,7 @@
 MD = $(wildcard [a-z]*.md)
 HTML = $(MD:.md=.html)
 PDF = $(MD:.md=.pdf)
-FLAGS = -s --katex --metadata="title=$*"
+FLAGS = -s --katex --metadata="title=$*" -M classoption=fleqn
 
 %.html: %.md 
 	pandoc $(FLAGS) $< -o $@

@@ -58,7 +58,7 @@ $t\ge0$.  The forward value of a put with strike $k$ and expiration $t$
 is $E[\max\{k - F_t, 0\}] = E[(k - F_t)^+]$.  
 Since 
 $$
-	F = f^{-s^2/2 + sZ}
+	F = fe^{-s^2/2 + sZ}
 $$
 where $s = \sigma\sqrt{t}$ and $Z$ is standard normal, has the same distribution as $F_t$ we need
 to compute $E[(k - F)^+]$.
